@@ -33,6 +33,7 @@ public class Ventana4 extends JFrame implements ActionListener {
         //Paso 3. Vamos a crear un campo de texto
         // JTextfield que solo permite escribir numeros
         txtIDTarjeta = new JTextField();
+        txtIDTarjeta.setDocument(new LimiteDeTexto(20));
         txtIDTarjeta.addKeyListener(SoporteValidaciones.KA_SoloNumeros(this));
         // Como los siguientes campos de texto sólo son de salida, no se permiten editar
         txtNombreCliente = new JTextField();
