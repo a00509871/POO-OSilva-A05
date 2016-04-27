@@ -3,20 +3,18 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
 package poo.equipoalfa;
-
 /**
  *
- * @author A00509871
+ * @author osilru
  */
-public class POOEquipoAlfa {
+public class POOEquipoAlfaT4 {
 
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
-        // TODO code application logic here
+    public static void main(String[] args) {        
+        //Swing
+        Menu menu = new Menu();
     }
-
 }
