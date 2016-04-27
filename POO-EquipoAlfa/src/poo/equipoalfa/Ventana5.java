@@ -89,7 +89,7 @@ public class Ventana5 extends JFrame implements ActionListener {
     
     @Override
     public void actionPerformed(ActionEvent e) {
-        if (e.getSource() == btnAceptar) {
+        if ((e.getSource() == btnAceptar) || (e.getSource() == txtConfiguracion)) {
 //            String configuracion = txtConfiguracion.getText();
 //            /*
 //            if (MonederoElectronico.agregarConfiguracino(configuracion)){
